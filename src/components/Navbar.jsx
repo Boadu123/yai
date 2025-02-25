@@ -47,7 +47,7 @@ export default function Navbar() {
     className="text-2xl font-bold cursor-pointer transition-colors duration-300 bg-gradient-to-r from-[#00A896] to-[#007BFF] bg-clip-text text-transparent hover:from-[#007BFF] hover:to-[#00A896]"
     onClick={() => handleLinkClick('hero')}
   >
-    Assurob
+    Prosper Mensah
   </div>
 
 

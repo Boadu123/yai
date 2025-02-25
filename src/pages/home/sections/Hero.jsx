@@ -12,23 +12,23 @@ import Battery6 from "../../../images/battery6.png";
 const slides = [
   {
     id: 1,
-    title: "Innovative Safety Helmets",
+    title: "Affordable Battery-Powered Motorcycles",
     description:
-      "Advanced helmets with real-time location tracking and low-light sensors for maximum worker safety.",
+      "Revolutionizing transportation with cost-effective, battery-powered motorcycles designed to reduce fuel dependency and operating costs.",
     image: Battery5,
   },
   {
     id: 2,
-    title: "Real-Time Tracking in Action",
+    title: "Real-Time Performance Monitoring",
     description:
-      "Experience live tracking data that ensures faster emergency responses in hazardous environments.",
+      "Stay ahead with live tracking and performance analytics, ensuring optimal battery usage and efficient ride management.",
     image: Battery4,
   },
   {
     id: 3,
-    title: "Enhanced Visibility at Night",
+    title: "Sustainable and Eco-Friendly Mobility",
     description:
-      "Automatic low-light sensors for better visibility, improving safety in dimly lit industrial settings.",
+      "Our electric motorcycles provide a cleaner, greener alternative to traditional fuel-powered bikes, promoting environmental sustainability.",
     image: Battery6,
   },
 ];

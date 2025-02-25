@@ -11,49 +11,46 @@ export default function ShowcaseSection() {
     >
       <div className="max-w-7xl mx-auto px-6">
         <h2 className="text-4xl font-bold text-center text-[#00A896] mb-12">
-          Product Showcase
+          Electric Motorcycle Innovations
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="bg-white rounded-2xl shadow-lg p-6 text-center hover:shadow-2xl transition-shadow">
             <img
               src={Battery4}
-              alt="Real-Time Tracking"
+              alt="Advanced Battery System"
               className="w-full h-56 object-cover rounded-2xl mb-4"
             />
             <h3 className="text-2xl font-semibold text-[#00A896] mb-2">
-              Real-Time Tracking
+              Advanced Battery System
             </h3>
             <p className="text-gray-700 leading-relaxed">
-              Stay updated with precise real-time location tracking, ensuring fast
-              emergency responses when it matters most.
+              Experience longer rides with our high-capacity lithium-ion batteries, engineered for efficiency and rapid charging.
             </p>
           </div>
           <div className="bg-white rounded-2xl shadow-lg p-6 text-center hover:shadow-2xl transition-shadow">
             <img
               src={Battery2}
-              alt="Low-Light Sensors"
+              alt="Smart Energy Management"
               className="w-full h-56 object-cover rounded-2xl mb-4"
             />
             <h3 className="text-2xl font-semibold text-[#00A896] mb-2">
-              Low-Light Sensors
+              Smart Energy Management
             </h3>
             <p className="text-gray-700 leading-relaxed">
-              Improve visibility in dim environments with automatic low-light
-              sensors, enhancing safety during nighttime operations.
+              Optimize power usage with AI-driven energy distribution, ensuring a balanced and sustainable performance on every trip.
             </p>
           </div>
           <div className="bg-white rounded-2xl shadow-lg p-6 text-center hover:shadow-2xl transition-shadow">
             <img
               src={Battery1}
-              alt="Durable Design"
+              alt="Robust & Sustainable Design"
               className="w-full h-56 object-cover rounded-2xl mb-4"
             />
             <h3 className="text-2xl font-semibold text-[#00A896] mb-2">
-              Durable Design
+              Robust & Sustainable Design
             </h3>
             <p className="text-gray-700 leading-relaxed">
-              Built for tough environments, the helmets combine durability with
-              cutting-edge technology for maximum protection.
+              Built with eco-friendly materials, our motorcycles offer superior durability while reducing environmental impact.
             </p>
           </div>
         </div>

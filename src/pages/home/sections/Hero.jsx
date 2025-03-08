@@ -12,23 +12,23 @@ import Battery6 from "../../../images/battery6.png";
 const slides = [
   {
     id: 1,
-    title: "Affordable Battery-Powered Motorcycles",
+    title: "Introducing the Multipurpose Fan",
     description:
-      "Revolutionizing transportation with cost-effective, battery-powered motorcycles designed to reduce fuel dependency and operating costs.",
+      "Designed by Prosper Mensah, this innovative fan goes beyond cooling—offering built-in lighting and an integrated sound system for added convenience.",
     image: Battery5,
   },
   {
     id: 2,
-    title: "Real-Time Performance Monitoring",
+    title: "Solving Traditional Fan Limitations",
     description:
-      "Stay ahead with live tracking and performance analytics, ensuring optimal battery usage and efficient ride management.",
+      "Traditional portable fans lack essential features like lighting and audio, making them impractical in low-light and off-grid environments.",
     image: Battery4,
   },
   {
     id: 3,
-    title: "Sustainable and Eco-Friendly Mobility",
+    title: "A Reliable, Multi-Functional Solution",
     description:
-      "Our electric motorcycles provide a cleaner, greener alternative to traditional fuel-powered bikes, promoting environmental sustainability.",
+      "This rechargeable, solar-powered fan combines cooling, lighting, and an audio system—ensuring functionality even in off-grid settings.",
     image: Battery6,
   },
 ];

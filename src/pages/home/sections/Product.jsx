@@ -6,85 +6,85 @@ export default function Product() {
   const features = [
     {
       id: 1,
-      title: "Smart Battery Management System",
+      title: "Advanced Cooling System",
       description:
-        "Optimize battery usage and extend lifespan with our intelligent battery management system, ensuring maximum efficiency and longevity.",
-      icon: "🔋",
+        "Experience superior cooling performance with our state-of-the-art system, ensuring optimal airflow and temperature control.",
+      icon: "❄️",
       gradient: "from-green-500 to-green-600",
       details: {
         specifications: [
-          "Adaptive charging technology",
-          "Real-time battery health monitoring",
-          "Optimized power distribution",
-          "Overcharge and temperature protection",
+          "High-efficiency fan blades",
+          "Smart temperature regulation",
+          "Low-noise operation",
+          "Energy-saving mode",
         ],
         benefits: [
-          "Longer battery life",
-          "Energy-efficient power consumption",
-          "Reduced maintenance costs",
-          "Safe and stable power management",
+          "Faster and better cooling",
+          "Whisper-quiet performance",
+          "Optimized power consumption",
+          "Reliable and durable design",
         ],
         technicalSpecs: {
-          battery: "Lithium-ion 72V 30Ah",
-          charging: "Fast charging in 3 hours",
-          lifespan: "1000+ charge cycles",
-          efficiency: "95% energy conversion",
+          power: "50W energy-efficient motor",
+          noiseLevel: "Less than 30dB",
+          speed: "3 adjustable levels",
+          durability: "Designed for 10+ years of use",
         },
       },
     },
     {
       id: 2,
-      title: "Regenerative Braking System",
+      title: "Multi-Functional LED Lighting",
       description:
-        "Recover energy while braking, extending battery life and improving efficiency for longer rides.",
-      icon: "⚡",
+        "Illuminate your space with bright, adjustable LED lighting, perfect for any environment or mood.",
+      icon: "💡",
       gradient: "from-blue-500 to-blue-600",
       details: {
         specifications: [
-          "Automatic energy recovery",
-          "Seamless integration with braking system",
-          "Improved energy efficiency",
-          "Extended battery range",
+          "Adjustable brightness levels",
+          "Warm and cool light options",
+          "Energy-efficient LEDs",
+          "Long-lasting durability",
         ],
         benefits: [
-          "Increased riding range",
-          "Reduced battery drain",
-          "Improved braking response",
-          "Eco-friendly energy usage",
+          "Customizable lighting ambiance",
+          "Low power consumption",
+          "Enhanced visibility and comfort",
+          "Sleek and modern design",
         ],
         technicalSpecs: {
-          recovery: "Up to 30% energy regen",
-          response: "Instant activation",
-          durability: "50,000+ braking cycles",
-          compatibility: "Integrated with disc brakes",
+          brightness: "Up to 1000 lumens",
+          lifespan: "50,000+ hours",
+          powerUsage: "5W ultra-efficient LED",
+          colorModes: "Daylight, warm, and cool white",
         },
       },
     },
     {
       id: 3,
-      title: "GPS-Enabled Theft Protection",
+      title: "Built-in Bluetooth Speaker",
       description:
-        "Ensure security with real-time GPS tracking, anti-theft alerts, and geo-fencing capabilities.",
-      icon: "📍",
+        "Enjoy crystal-clear sound with an integrated Bluetooth speaker, perfect for music, calls, and more.",
+      icon: "🔊",
       gradient: "from-red-500 to-red-600",
       details: {
         specifications: [
-          "Live location tracking",
-          "Geo-fencing alerts",
-          "Remote immobilization",
-          "Tamper detection sensors",
+          "High-definition audio",
+          "Seamless Bluetooth connectivity",
+          "Built-in microphone for calls",
+          "Compact and powerful design",
         ],
         benefits: [
-          "Enhanced motorcycle security",
-          "Quick theft recovery",
-          "Peace of mind for owners",
-          "Remote access via mobile app",
+          "Immersive sound experience",
+          "Wireless convenience",
+          "Hands-free calling support",
+          "Long-lasting battery life",
         ],
         technicalSpecs: {
-          tracking: "GPS + GLONASS dual system",
-          accuracy: "Up to 1 meter",
-          battery: "48-hour backup in theft mode",
-          connectivity: "4G LTE & Bluetooth 5.0",
+          connectivity: "Bluetooth 5.0",
+          batteryLife: "Up to 10 hours of playback",
+          frequencyRange: "20Hz - 20kHz",
+          chargingTime: "Fully charges in 2 hours",
         },
       },
     },
@@ -98,10 +98,11 @@ export default function Product() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent mb-6">
-            Smart Electric Motorcycle Innovations
+            Next-Generation Multipurpose Fan
           </h2>
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
-            Our battery-powered motorcycles redefine urban mobility, offering efficiency, security, and sustainability.
+            Combining cooling, lighting, and sound in one powerful device for
+            ultimate convenience and comfort.
           </p>
         </div>
 
@@ -204,11 +205,16 @@ export default function Product() {
                     Key Features
                   </h4>
                   <ul className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                    {selectedFeature.details.specifications.map((spec, index) => (
-                      <li key={index} className="text-gray-600 flex items-center">
-                        ✅ {spec}
-                      </li>
-                    ))}
+                    {selectedFeature.details.specifications.map(
+                      (spec, index) => (
+                        <li
+                          key={index}
+                          className="text-gray-600 flex items-center"
+                        >
+                          ✅ {spec}
+                        </li>
+                      )
+                    )}
                   </ul>
                 </div>
               </div>

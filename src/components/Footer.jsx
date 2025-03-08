@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="w-full bg-[#00A896] text-white py-8">
       <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between">
         <p className="text-lg">
-          &copy; 2024 EV Motors Ghana. All rights reserved.
+          &copy; 2025 MultiPurpose Fans Ghana. All rights reserved.
         </p>
         <div className="flex space-x-6 mt-4 md:mt-0">
           <a

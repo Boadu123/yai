@@ -14,21 +14,21 @@ const slides = [
     id: 1,
     title: "Introducing the Multipurpose Fan",
     description:
-      "Designed by Prosper Mensah, this innovative fan goes beyond cooling—offering built-in lighting and an integrated sound system for added convenience.",
+      "Designed by Prosper Mensah, this fan combines cooling, lighting, and sound for ultimate convenience.",
     image: Battery5,
   },
   {
     id: 2,
     title: "Solving Traditional Fan Limitations",
     description:
-      "Traditional portable fans lack essential features like lighting and audio, making them impractical in low-light and off-grid environments.",
+      "Traditional fans lack lighting and audio, limiting use in dark or off-grid areas.",
     image: Battery4,
   },
   {
     id: 3,
     title: "A Reliable, Multi-Functional Solution",
     description:
-      "This rechargeable, solar-powered fan combines cooling, lighting, and an audio system—ensuring functionality even in off-grid settings.",
+      "Solar-powered and rechargeable, this fan provides cooling, lighting, and audio anywhere.",
     image: Battery6,
   },
 ];
